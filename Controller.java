@@ -24,6 +24,7 @@ public class Controller {
         view.printMessageAndString(View.OUR_STRING, model.getValue());
     }
 
+    //new changes
     public String inputStringValueWithScanner(Scanner sc) {
         view.printMessage(View.INPUT_FIRST_WORD);
         String firstWord;
