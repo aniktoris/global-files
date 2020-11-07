@@ -17,7 +17,7 @@ public class Model {
         min = 1;
         max = 99;
         Random random = new Random();
-        rightValue = random.nextInt(max + 1);
+        rightValue = random.nextInt(max);
     }
 
     public boolean checkValue(int yourNumber) {
