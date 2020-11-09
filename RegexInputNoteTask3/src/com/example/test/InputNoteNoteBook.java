@@ -21,14 +21,17 @@ public class InputNoteNoteBook {
         UtilityController utilityController =
                 new UtilityController(sc, view);
 
+        view.printMessage(View.INPUT_SURNAME);
         this.surname =
                 utilityController.inputStringValueWithScanner
                         (REGEX_SURNAME_LAT);
 
+        view.printMessage(View.INPUT_NICKNAME);
         this.nickname =
                 utilityController.inputStringValueWithScanner
                         (REGEX_NICKNAME_LAT);
 
+        view.printMessage(View.INPUT_PHONE_NUMBER);
         this.phoneNumber =
                 utilityController.inputStringValueWithScanner
                         (REGEX_PHONE_NUMBER);
