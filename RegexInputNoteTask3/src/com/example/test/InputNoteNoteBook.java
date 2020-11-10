@@ -36,4 +36,23 @@ public class InputNoteNoteBook {
                 utilityController.inputStringValueWithScanner
                         (REGEX_PHONE_NUMBER);
     }
+
+    public void inputNick() {
+        UtilityController utilityController =
+                new UtilityController(sc, view);
+        this.nickname =
+                utilityController.inputStringValueWithScanner(REGEX_NICKNAME_LAT);
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
